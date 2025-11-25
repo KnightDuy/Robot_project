@@ -1,0 +1,40 @@
+[0.056s] Invoking command in '/home/duy/ros2_ws/build/my_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/my_robot_model -- -j16 -l16
+[0.477s] Invoked command in '/home/duy/ros2_ws/build/my_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/my_robot_model -- -j16 -l16
+[0.478s] Invoking command in '/home/duy/ros2_ws/build/my_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/my_robot_model
+[0.501s] -- Install configuration: ""
+[0.501s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/launch
+[0.501s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/launch/test.launch.py
+[0.502s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description
+[0.503s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/lidar.xacro
+[0.503s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/depth_camera.xacro
+[0.503s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/robot.urdf.xacro
+[0.503s] -- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/imu.xacro
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/robot_core.xacro
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/camera.xacro
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/robot_control.xacro
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/inertial_macros.xacro
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/config
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/config/bridge_config.yaml
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/config/mapper_params_online_async.yaml
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/config/ekf.yaml
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/rviz
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/rviz/config.rviz
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/worlds
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/worlds/my_world.sdf
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/lib/my_robot_model/wheel_odom_publisher.py
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/ament_index/resource_index/package_run_dependencies/my_robot_model
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/ament_index/resource_index/parent_prefix_path/my_robot_model
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/environment/ament_prefix_path.sh
+[0.504s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/environment/ament_prefix_path.dsv
+[0.505s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/environment/path.sh
+[0.505s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/environment/path.dsv
+[0.505s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/local_setup.bash
+[0.505s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/local_setup.sh
+[0.505s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/local_setup.zsh
+[0.505s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/local_setup.dsv
+[0.506s] -- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.dsv
+[0.506s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/ament_index/resource_index/packages/my_robot_model
+[0.506s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/cmake/my_robot_modelConfig.cmake
+[0.506s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/cmake/my_robot_modelConfig-version.cmake
+[0.508s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.xml
+[0.571s] Invoked command in '/home/duy/ros2_ws/build/my_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/my_robot_model

@@ -1,0 +1,28 @@
+[0.039s] Invoking command in '/home/duy/ros2_ws/build/my_robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/my_robot_localization -- -j16 -l16
+[0.276s] Invoked command in '/home/duy/ros2_ws/build/my_robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/my_robot_localization -- -j16 -l16
+[0.277s] Invoking command in '/home/duy/ros2_ws/build/my_robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/my_robot_localization
+[0.291s] -- Install configuration: ""
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/launch
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/launch/online_sync_myrobot.launch.py
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/launch/imu_filter.launch.py
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/launch/ekf.launch.py
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/config
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/config/imu_filter.yaml
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/config/mapper_params_online_sync.yaml
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/config/ekf.yaml
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/ament_index/resource_index/package_run_dependencies/my_robot_localization
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/ament_index/resource_index/parent_prefix_path/my_robot_localization
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/environment/ament_prefix_path.sh
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/environment/ament_prefix_path.dsv
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/environment/path.sh
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/environment/path.dsv
+[0.293s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/local_setup.bash
+[0.294s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/local_setup.sh
+[0.294s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/local_setup.zsh
+[0.294s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/local_setup.dsv
+[0.294s] -- Installing: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.dsv
+[0.294s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/ament_index/resource_index/packages/my_robot_localization
+[0.294s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/cmake/my_robot_localizationConfig.cmake
+[0.294s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/cmake/my_robot_localizationConfig-version.cmake
+[0.294s] -- Up-to-date: /home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.xml
+[0.330s] Invoked command in '/home/duy/ros2_ws/build/my_robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/my_robot_localization

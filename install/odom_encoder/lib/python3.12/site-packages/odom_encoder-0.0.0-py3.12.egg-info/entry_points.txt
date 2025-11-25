@@ -1,0 +1,5 @@
+[console_scripts]
+fake_imu_node = odom_encoder.fake_imu_node:main
+fake_vel_node = odom_encoder.fake_vel_node:main
+imu_node = odom_encoder.imu_node:main
+odom_node = odom_encoder.odom_node:main

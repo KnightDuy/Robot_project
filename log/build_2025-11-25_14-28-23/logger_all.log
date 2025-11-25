@@ -1,0 +1,671 @@
+[0.219s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.220s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7011729f11f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7011729f0da0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7011729f0da0>>, mixin_verb=('build',))
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.268s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/duy/ros2_ws'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_complementary_filter' with type 'ros.ament_cmake' and name 'imu_complementary_filter'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_filter_madgwick' with type 'ros.ament_cmake' and name 'imu_filter_madgwick'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_tools' with type 'ros.ament_cmake' and name 'imu_tools'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/rviz_imu_plugin' with type 'ros.ament_cmake' and name 'rviz_imu_plugin'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_localization) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_localization) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_localization) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_localization) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_localization) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_localization) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_localization) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_localization) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_localization' with type 'ros.ament_cmake' and name 'my_robot_localization'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_model) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_model) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_model) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_model) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_model) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_model) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_model) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_model) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_model) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_model' with type 'ros.ament_cmake' and name 'my_robot_model'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_navigation' with type 'ros.ament_cmake' and name 'my_robot_navigation'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_encoder) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_encoder) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_encoder) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_encoder) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_encoder) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_encoder) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_encoder) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_encoder) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_encoder) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom_encoder' with type 'ros.ament_python' and name 'odom_encoder'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_tf) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_tf) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_tf) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_tf) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_tf) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_tf) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_tf) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_tf) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom_to_tf' with type 'ros.ament_cmake' and name 'odom_to_tf_ros2'
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.337s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/duy/ros2_ws/install
+[0.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 391 installed packages in /opt/ros/jazzy
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'imu_complementary_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duy/ros2_ws/build/imu_complementary_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duy/ros2_ws/install/imu_complementary_filter', 'merge_install': False, 'path': '/home/duy/ros2_ws/src/imu_tools/imu_complementary_filter', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'imu_filter_madgwick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duy/ros2_ws/build/imu_filter_madgwick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duy/ros2_ws/install/imu_filter_madgwick', 'merge_install': False, 'path': '/home/duy/ros2_ws/src/imu_tools/imu_filter_madgwick', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_localization' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_localization' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duy/ros2_ws/build/my_robot_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duy/ros2_ws/install/my_robot_localization', 'merge_install': False, 'path': '/home/duy/ros2_ws/src/my_robot_localization', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_model' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'my_robot_model' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duy/ros2_ws/build/my_robot_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duy/ros2_ws/install/my_robot_model', 'merge_install': False, 'path': '/home/duy/ros2_ws/src/my_robot_model', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duy/ros2_ws/build/my_robot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duy/ros2_ws/install/my_robot_navigation', 'merge_install': False, 'path': '/home/duy/ros2_ws/src/my_robot_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'odom_encoder' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'odom_encoder' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'odom_encoder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'odom_encoder' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'odom_encoder' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_encoder' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_encoder' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_encoder' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_encoder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'odom_encoder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duy/ros2_ws/build/odom_encoder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duy/ros2_ws/install/odom_encoder', 'merge_install': False, 'path': '/home/duy/ros2_ws/src/odom_encoder', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_to_tf_ros2' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_to_tf_ros2' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_to_tf_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_to_tf_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_to_tf_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_to_tf_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_to_tf_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_to_tf_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odom_to_tf_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'odom_to_tf_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duy/ros2_ws/build/odom_to_tf_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duy/ros2_ws/install/odom_to_tf_ros2', 'merge_install': False, 'path': '/home/duy/ros2_ws/src/odom_to_tf', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_imu_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duy/ros2_ws/build/rviz_imu_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duy/ros2_ws/install/rviz_imu_plugin', 'merge_install': False, 'path': '/home/duy/ros2_ws/src/imu_tools/rviz_imu_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'imu_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duy/ros2_ws/build/imu_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duy/ros2_ws/install/imu_tools', 'merge_install': False, 'path': '/home/duy/ros2_ws/src/imu_tools/imu_tools', 'symlink_install': False, 'test_result_base': None}
+[0.402s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.403s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.404s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duy/ros2_ws/src/imu_tools/imu_complementary_filter' with build type 'ament_cmake'
+[0.404s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duy/ros2_ws/src/imu_tools/imu_complementary_filter'
+[0.410s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.415s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duy/ros2_ws/src/imu_tools/imu_filter_madgwick' with build type 'ament_cmake'
+[0.415s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duy/ros2_ws/src/imu_tools/imu_filter_madgwick'
+[0.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duy/ros2_ws/src/imu_tools/rviz_imu_plugin' with build type 'ament_cmake'
+[0.420s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duy/ros2_ws/src/imu_tools/rviz_imu_plugin'
+[0.420s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.425s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duy/ros2_ws/src/my_robot_localization' with build type 'ament_cmake'
+[0.425s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duy/ros2_ws/src/my_robot_localization'
+[0.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.430s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duy/ros2_ws/src/my_robot_model' with build type 'ament_cmake'
+[0.430s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duy/ros2_ws/src/my_robot_model'
+[0.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.435s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duy/ros2_ws/src/my_robot_navigation' with build type 'ament_cmake'
+[0.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duy/ros2_ws/src/my_robot_navigation'
+[0.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/duy/ros2_ws/src/odom_encoder' with build type 'ament_python'
+[0.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_encoder', 'ament_prefix_path')
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/hook/ament_prefix_path.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/hook/ament_prefix_path.dsv'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/hook/ament_prefix_path.sh'
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duy/ros2_ws/src/odom_to_tf' with build type 'ament_cmake'
+[0.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duy/ros2_ws/src/odom_to_tf'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/imu_complementary_filter -- -j16 -l16
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/imu_filter_madgwick -- -j16 -l16
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/rviz_imu_plugin -- -j16 -l16
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/my_robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/my_robot_localization -- -j16 -l16
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/my_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/my_robot_model -- -j16 -l16
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/my_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/my_robot_navigation -- -j16 -l16
+[0.713s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/duy/ros2_ws/src/odom_encoder'
+[0.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/imu_complementary_filter -- -j16 -l16
+[0.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/imu_complementary_filter
+[0.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/imu_filter_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/imu_filter_madgwick -- -j16 -l16
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/imu_filter_madgwick
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/rviz_imu_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/rviz_imu_plugin -- -j16 -l16
+[0.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/rviz_imu_plugin
+[0.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/my_robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/my_robot_localization -- -j16 -l16
+[0.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/my_robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/my_robot_localization
+[0.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/my_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/my_robot_model -- -j16 -l16
+[0.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/my_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/my_robot_model
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/my_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/my_robot_navigation -- -j16 -l16
+[0.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/my_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/my_robot_navigation
+[0.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/odom_to_tf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/odom_to_tf_ros2 -- -j16 -l16
+[0.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_complementary_filter)
+[0.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/imu_complementary_filter
+[0.761s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter' for CMake module files
+[0.761s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter' for CMake config files
+[0.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'cmake_prefix_path')
+[0.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.ps1'
+[0.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.dsv'
+[0.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.sh'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter/lib'
+[0.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'ld_library_path_lib')
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.ps1'
+[0.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.dsv'
+[0.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.sh'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter/bin'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter/lib/pkgconfig/imu_complementary_filter.pc'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter/lib/python3.12/site-packages'
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter/bin'
+[0.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.ps1'
+[0.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.sh'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.bash'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.zsh'
+[0.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/imu_complementary_filter/share/colcon-core/packages/imu_complementary_filter)
+[0.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_complementary_filter)
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter' for CMake module files
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter' for CMake config files
+[0.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'cmake_prefix_path')
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.ps1'
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.dsv'
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.sh'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter/lib'
+[0.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'ld_library_path_lib')
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.ps1'
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.dsv'
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.sh'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter/bin'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter/lib/pkgconfig/imu_complementary_filter.pc'
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter/lib/python3.12/site-packages'
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_complementary_filter/bin'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.ps1'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.bash'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.zsh'
+[0.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/imu_complementary_filter/share/colcon-core/packages/imu_complementary_filter)
+[0.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_imu_plugin)
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin' for CMake module files
+[0.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/rviz_imu_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/rviz_imu_plugin
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin' for CMake config files
+[0.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'cmake_prefix_path')
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.ps1'
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.sh'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin/lib'
+[0.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'ld_library_path_lib')
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.dsv'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.sh'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin/bin'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin/lib/pkgconfig/rviz_imu_plugin.pc'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin/lib/python3.12/site-packages'
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin/bin'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.ps1'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.dsv'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.sh'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.bash'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.zsh'
+[0.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/rviz_imu_plugin/share/colcon-core/packages/rviz_imu_plugin)
+[0.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_imu_plugin)
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin' for CMake module files
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin' for CMake config files
+[0.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'cmake_prefix_path')
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.ps1'
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.dsv'
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/cmake_prefix_path.sh'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin/lib'
+[0.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'ld_library_path_lib')
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.ps1'
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.dsv'
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/hook/ld_library_path_lib.sh'
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin/bin'
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin/lib/pkgconfig/rviz_imu_plugin.pc'
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin/lib/python3.12/site-packages'
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/rviz_imu_plugin/bin'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.ps1'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.sh'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.bash'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/rviz_imu_plugin/share/rviz_imu_plugin/package.zsh'
+[0.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/rviz_imu_plugin/share/colcon-core/packages/rviz_imu_plugin)
+[0.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_localization)
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization' for CMake module files
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization' for CMake config files
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/my_robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/my_robot_localization
+[0.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_localization', 'cmake_prefix_path')
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/hook/cmake_prefix_path.ps1'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/hook/cmake_prefix_path.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/hook/cmake_prefix_path.sh'
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization/bin'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization/lib/pkgconfig/my_robot_localization.pc'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization/lib/python3.12/site-packages'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization/bin'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.dsv'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.sh'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.bash'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.zsh'
+[0.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/my_robot_localization/share/colcon-core/packages/my_robot_localization)
+[0.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_localization)
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization' for CMake module files
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization' for CMake config files
+[0.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_localization', 'cmake_prefix_path')
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/hook/cmake_prefix_path.ps1'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/hook/cmake_prefix_path.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/hook/cmake_prefix_path.sh'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization/bin'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization/lib/pkgconfig/my_robot_localization.pc'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization/lib/python3.12/site-packages'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_localization/bin'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.ps1'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.dsv'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.sh'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.bash'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_localization/share/my_robot_localization/package.zsh'
+[0.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/my_robot_localization/share/colcon-core/packages/my_robot_localization)
+[0.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_navigation)
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation' for CMake module files
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation' for CMake config files
+[0.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/my_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/my_robot_navigation
+[0.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_navigation', 'cmake_prefix_path')
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.dsv'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.sh'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation/bin'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation/lib/pkgconfig/my_robot_navigation.pc'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation/lib/python3.12/site-packages'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation/bin'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.sh'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.bash'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.zsh'
+[0.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/my_robot_navigation/share/colcon-core/packages/my_robot_navigation)
+[0.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_navigation)
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation' for CMake module files
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation' for CMake config files
+[0.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_navigation', 'cmake_prefix_path')
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.ps1'
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.dsv'
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.sh'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation/bin'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation/lib/pkgconfig/my_robot_navigation.pc'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation/lib/python3.12/site-packages'
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_navigation/bin'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.dsv'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.sh'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.bash'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.zsh'
+[0.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/my_robot_navigation/share/colcon-core/packages/my_robot_navigation)
+[0.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_filter_madgwick)
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick' for CMake module files
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick' for CMake config files
+[0.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/imu_filter_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/imu_filter_madgwick
+[0.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'cmake_prefix_path')
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.ps1'
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.sh'
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick/lib'
+[0.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'ld_library_path_lib')
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.ps1'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.dsv'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.sh'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick/bin'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick/lib/pkgconfig/imu_filter_madgwick.pc'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick/lib/python3.12/site-packages'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick/bin'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.ps1'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.dsv'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.sh'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.bash'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.zsh'
+[0.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/imu_filter_madgwick/share/colcon-core/packages/imu_filter_madgwick)
+[0.811s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_filter_madgwick)
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick' for CMake module files
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick' for CMake config files
+[0.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'cmake_prefix_path')
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.ps1'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.dsv'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/cmake_prefix_path.sh'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick/lib'
+[0.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'ld_library_path_lib')
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.dsv'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/hook/ld_library_path_lib.sh'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick/bin'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick/lib/pkgconfig/imu_filter_madgwick.pc'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick/lib/python3.12/site-packages'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_filter_madgwick/bin'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.dsv'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.sh'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.bash'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_filter_madgwick/share/imu_filter_madgwick/package.zsh'
+[0.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/imu_filter_madgwick/share/colcon-core/packages/imu_filter_madgwick)
+[0.817s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duy/ros2_ws/src/imu_tools/imu_tools' with build type 'ament_cmake'
+[0.817s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duy/ros2_ws/src/imu_tools/imu_tools'
+[0.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_model)
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model' for CMake module files
+[0.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/my_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/my_robot_model
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model' for CMake config files
+[0.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_model', 'cmake_prefix_path')
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/hook/cmake_prefix_path.ps1'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/hook/cmake_prefix_path.dsv'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/hook/cmake_prefix_path.sh'
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model/lib'
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model/bin'
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model/lib/pkgconfig/my_robot_model.pc'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model/lib/python3.12/site-packages'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model/bin'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.ps1'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.dsv'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.sh'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.bash'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.zsh'
+[0.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/my_robot_model/share/colcon-core/packages/my_robot_model)
+[0.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_model)
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model' for CMake module files
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model' for CMake config files
+[0.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_model', 'cmake_prefix_path')
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/hook/cmake_prefix_path.ps1'
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/hook/cmake_prefix_path.dsv'
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/hook/cmake_prefix_path.sh'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model/lib'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model/bin'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model/lib/pkgconfig/my_robot_model.pc'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model/lib/python3.12/site-packages'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/my_robot_model/bin'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.ps1'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.dsv'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.sh'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.bash'
+[0.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.zsh'
+[0.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/my_robot_model/share/colcon-core/packages/my_robot_model)
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/imu_tools': CMAKE_PREFIX_PATH=/home/duy/ros2_ws/install/rviz_imu_plugin:/home/duy/ros2_ws/install/imu_filter_madgwick:/home/duy/ros2_ws/install/imu_complementary_filter:/home/duy/ros2_ws/install/imu_tools:/home/duy/ros2_ws/install/odom_to_tf_ros2:/home/duy/ros2_ws/install/my_robot_navigation:/home/duy/ros2_ws/install/my_robot_model:/home/duy/ros2_ws/install/my_robot_localization:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/imu_tools -- -j16 -l16
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/odom_to_tf_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/odom_to_tf_ros2 -- -j16 -l16
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/odom_to_tf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/odom_to_tf_ros2
+[0.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_to_tf_ros2)
+[0.846s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2' for CMake module files
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/odom_to_tf_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/odom_to_tf_ros2
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2' for CMake config files
+[0.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_to_tf_ros2', 'cmake_prefix_path')
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/hook/cmake_prefix_path.ps1'
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/hook/cmake_prefix_path.dsv'
+[0.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/hook/cmake_prefix_path.sh'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2/lib'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2/bin'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2/lib/pkgconfig/odom_to_tf_ros2.pc'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2/lib/python3.12/site-packages'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2/bin'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.ps1'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.dsv'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.sh'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.bash'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.zsh'
+[0.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/odom_to_tf_ros2/share/colcon-core/packages/odom_to_tf_ros2)
+[0.851s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_to_tf_ros2)
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2' for CMake module files
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2' for CMake config files
+[0.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_to_tf_ros2', 'cmake_prefix_path')
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/hook/cmake_prefix_path.ps1'
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/hook/cmake_prefix_path.dsv'
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/hook/cmake_prefix_path.sh'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2/lib'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2/bin'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2/lib/pkgconfig/odom_to_tf_ros2.pc'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2/lib/python3.12/site-packages'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_to_tf_ros2/bin'
+[0.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.ps1'
+[0.854s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.dsv'
+[0.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.sh'
+[0.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.bash'
+[0.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.zsh'
+[0.856s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/odom_to_tf_ros2/share/colcon-core/packages/odom_to_tf_ros2)
+[0.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/imu_tools' returned '0': CMAKE_PREFIX_PATH=/home/duy/ros2_ws/install/rviz_imu_plugin:/home/duy/ros2_ws/install/imu_filter_madgwick:/home/duy/ros2_ws/install/imu_complementary_filter:/home/duy/ros2_ws/install/imu_tools:/home/duy/ros2_ws/install/odom_to_tf_ros2:/home/duy/ros2_ws/install/my_robot_navigation:/home/duy/ros2_ws/install/my_robot_model:/home/duy/ros2_ws/install/my_robot_localization:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/imu_tools -- -j16 -l16
+[0.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/build/imu_tools': CMAKE_PREFIX_PATH=/home/duy/ros2_ws/install/rviz_imu_plugin:/home/duy/ros2_ws/install/imu_filter_madgwick:/home/duy/ros2_ws/install/imu_complementary_filter:/home/duy/ros2_ws/install/imu_tools:/home/duy/ros2_ws/install/odom_to_tf_ros2:/home/duy/ros2_ws/install/my_robot_navigation:/home/duy/ros2_ws/install/my_robot_model:/home/duy/ros2_ws/install/my_robot_localization:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/imu_tools
+[0.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_tools)
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools' for CMake module files
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/build/imu_tools' returned '0': CMAKE_PREFIX_PATH=/home/duy/ros2_ws/install/rviz_imu_plugin:/home/duy/ros2_ws/install/imu_filter_madgwick:/home/duy/ros2_ws/install/imu_complementary_filter:/home/duy/ros2_ws/install/imu_tools:/home/duy/ros2_ws/install/odom_to_tf_ros2:/home/duy/ros2_ws/install/my_robot_navigation:/home/duy/ros2_ws/install/my_robot_model:/home/duy/ros2_ws/install/my_robot_localization:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/imu_tools
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools' for CMake config files
+[0.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tools', 'cmake_prefix_path')
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.sh'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools/bin'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools/lib/pkgconfig/imu_tools.pc'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools/lib/python3.12/site-packages'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools/bin'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.sh'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.bash'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.zsh'
+[0.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/imu_tools/share/colcon-core/packages/imu_tools)
+[0.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_tools)
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools' for CMake module files
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools' for CMake config files
+[0.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tools', 'cmake_prefix_path')
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.dsv'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/hook/cmake_prefix_path.sh'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools/bin'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools/lib/pkgconfig/imu_tools.pc'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools/lib/python3.12/site-packages'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/imu_tools/bin'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.ps1'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.sh'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.bash'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.zsh'
+[0.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/imu_tools/share/colcon-core/packages/imu_tools)
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duy/ros2_ws/src/odom_encoder': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/duy/ros2_ws/build/odom_encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_encoder build --build-base /home/duy/ros2_ws/build/odom_encoder/build install --record /home/duy/ros2_ws/build/odom_encoder/install.log --single-version-externally-managed install_data
+[1.639s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_encoder' for CMake module files
+[1.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duy/ros2_ws/src/odom_encoder' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/duy/ros2_ws/build/odom_encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_encoder build --build-base /home/duy/ros2_ws/build/odom_encoder/build install --record /home/duy/ros2_ws/build/odom_encoder/install.log --single-version-externally-managed install_data
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_encoder' for CMake config files
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_encoder/lib'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_encoder/bin'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_encoder/lib/pkgconfig/odom_encoder.pc'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages'
+[1.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_encoder', 'pythonpath')
+[1.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/hook/pythonpath.ps1'
+[1.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/hook/pythonpath.dsv'
+[1.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/hook/pythonpath.sh'
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/home/duy/ros2_ws/install/odom_encoder/bin'
+[1.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_encoder)
+[1.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/package.ps1'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/package.dsv'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/package.sh'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/package.bash'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/duy/ros2_ws/install/odom_encoder/share/odom_encoder/package.zsh'
+[1.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duy/ros2_ws/install/odom_encoder/share/colcon-core/packages/odom_encoder)
+[1.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.644s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.652s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.664s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duy/ros2_ws/install/local_setup.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/duy/ros2_ws/install/_local_setup_util_ps1.py'
+[1.666s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duy/ros2_ws/install/setup.ps1'
+[1.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duy/ros2_ws/install/local_setup.sh'
+[1.668s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/duy/ros2_ws/install/_local_setup_util_sh.py'
+[1.669s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duy/ros2_ws/install/setup.sh'
+[1.670s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duy/ros2_ws/install/local_setup.bash'
+[1.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duy/ros2_ws/install/setup.bash'
+[1.671s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duy/ros2_ws/install/local_setup.zsh'
+[1.671s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duy/ros2_ws/install/setup.zsh'

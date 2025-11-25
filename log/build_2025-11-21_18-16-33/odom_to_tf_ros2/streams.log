@@ -1,0 +1,64 @@
+[0.322s] Invoking command in '/home/duy/ros2_ws/build/odom_to_tf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/duy/ros2_ws/src/odom_to_tf -DCMAKE_INSTALL_PREFIX=/home/duy/ros2_ws/install/odom_to_tf_ros2
+[0.390s] -- The C compiler identification is GNU 13.3.0
+[0.447s] -- The CXX compiler identification is GNU 13.3.0
+[0.472s] -- Detecting C compiler ABI info
+[0.572s] -- Detecting C compiler ABI info - done
+[0.580s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.581s] -- Detecting C compile features
+[0.581s] -- Detecting C compile features - done
+[0.592s] -- Detecting CXX compiler ABI info
+[0.722s] -- Detecting CXX compiler ABI info - done
+[0.730s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.730s] -- Detecting CXX compile features
+[0.731s] -- Detecting CXX compile features - done
+[0.736s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.894s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.019s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.076s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.094s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.114s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.227s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.232s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.335s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.361s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.387s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.471s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.651s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.679s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.703s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.704s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.704s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.802s] -- Configuring done (1.5s)
+[1.817s] -- Generating done (0.0s)
+[1.821s] -- Build files have been written to: /home/duy/ros2_ws/build/odom_to_tf_ros2
+[1.836s] Invoked command in '/home/duy/ros2_ws/build/odom_to_tf_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/duy/ros2_ws/src/odom_to_tf -DCMAKE_INSTALL_PREFIX=/home/duy/ros2_ws/install/odom_to_tf_ros2
+[1.837s] Invoking command in '/home/duy/ros2_ws/build/odom_to_tf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/odom_to_tf_ros2 -- -j16 -l16
+[1.895s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_to_tf.dir/src/odom_to_tf.cpp.o[0m
+[11.866s] [100%] [32m[1mLinking CXX executable odom_to_tf[0m
+[12.374s] [100%] Built target odom_to_tf
+[12.391s] Invoked command in '/home/duy/ros2_ws/build/odom_to_tf_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/odom_to_tf_ros2 -- -j16 -l16
+[12.392s] Invoking command in '/home/duy/ros2_ws/build/odom_to_tf_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/odom_to_tf_ros2
+[12.404s] -- Install configuration: ""
+[12.404s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/lib/odom_to_tf_ros2/odom_to_tf
+[12.410s] -- Set non-toolchain portion of runtime path of "/home/duy/ros2_ws/install/odom_to_tf_ros2/lib/odom_to_tf_ros2/odom_to_tf" to ""
+[12.410s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/launch
+[12.410s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/launch/odom_to_tf.launch.py
+[12.410s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/config
+[12.411s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/config/odom_to_tf.yaml
+[12.411s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/ament_index/resource_index/package_run_dependencies/odom_to_tf_ros2
+[12.411s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/ament_index/resource_index/parent_prefix_path/odom_to_tf_ros2
+[12.412s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/environment/ament_prefix_path.sh
+[12.412s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/environment/ament_prefix_path.dsv
+[12.412s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/environment/path.sh
+[12.412s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/environment/path.dsv
+[12.412s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/local_setup.bash
+[12.413s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/local_setup.sh
+[12.413s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/local_setup.zsh
+[12.413s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/local_setup.dsv
+[12.413s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.dsv
+[12.414s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/ament_index/resource_index/packages/odom_to_tf_ros2
+[12.414s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/cmake/odom_to_tf_ros2Config.cmake
+[12.414s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/cmake/odom_to_tf_ros2Config-version.cmake
+[12.414s] -- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.xml
+[12.417s] Invoked command in '/home/duy/ros2_ws/build/odom_to_tf_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/odom_to_tf_ros2

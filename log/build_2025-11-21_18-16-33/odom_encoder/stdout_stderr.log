@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/odom_encoder/odom_encoder.egg-info
+writing ../../build/odom_encoder/odom_encoder.egg-info/PKG-INFO
+writing dependency_links to ../../build/odom_encoder/odom_encoder.egg-info/dependency_links.txt
+writing entry points to ../../build/odom_encoder/odom_encoder.egg-info/entry_points.txt
+writing requirements to ../../build/odom_encoder/odom_encoder.egg-info/requires.txt
+writing top-level names to ../../build/odom_encoder/odom_encoder.egg-info/top_level.txt
+writing manifest file '../../build/odom_encoder/odom_encoder.egg-info/SOURCES.txt'
+reading manifest file '../../build/odom_encoder/odom_encoder.egg-info/SOURCES.txt'
+writing manifest file '../../build/odom_encoder/odom_encoder.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/duy/ros2_ws/build/odom_encoder/build
+creating /home/duy/ros2_ws/build/odom_encoder/build/lib
+creating /home/duy/ros2_ws/build/odom_encoder/build/lib/odom_encoder
+copying odom_encoder/fake_vel_node.py -> /home/duy/ros2_ws/build/odom_encoder/build/lib/odom_encoder
+copying odom_encoder/odom_node.py -> /home/duy/ros2_ws/build/odom_encoder/build/lib/odom_encoder
+copying odom_encoder/fake_imu_node.py -> /home/duy/ros2_ws/build/odom_encoder/build/lib/odom_encoder
+copying odom_encoder/__init__.py -> /home/duy/ros2_ws/build/odom_encoder/build/lib/odom_encoder
+running install
+running install_lib
+creating /home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages/odom_encoder
+copying /home/duy/ros2_ws/build/odom_encoder/build/lib/odom_encoder/fake_vel_node.py -> /home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages/odom_encoder
+copying /home/duy/ros2_ws/build/odom_encoder/build/lib/odom_encoder/odom_node.py -> /home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages/odom_encoder
+copying /home/duy/ros2_ws/build/odom_encoder/build/lib/odom_encoder/fake_imu_node.py -> /home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages/odom_encoder
+copying /home/duy/ros2_ws/build/odom_encoder/build/lib/odom_encoder/__init__.py -> /home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages/odom_encoder
+byte-compiling /home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages/odom_encoder/fake_vel_node.py to fake_vel_node.cpython-312.pyc
+byte-compiling /home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages/odom_encoder/odom_node.py to odom_node.cpython-312.pyc
+byte-compiling /home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages/odom_encoder/fake_imu_node.py to fake_imu_node.cpython-312.pyc
+byte-compiling /home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages/odom_encoder/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/duy/ros2_ws/install/odom_encoder/share/ament_index
+creating /home/duy/ros2_ws/install/odom_encoder/share/ament_index/resource_index
+creating /home/duy/ros2_ws/install/odom_encoder/share/ament_index/resource_index/packages
+copying resource/odom_encoder -> /home/duy/ros2_ws/install/odom_encoder/share/ament_index/resource_index/packages
+copying package.xml -> /home/duy/ros2_ws/install/odom_encoder/share/odom_encoder
+running install_egg_info
+Copying ../../build/odom_encoder/odom_encoder.egg-info to /home/duy/ros2_ws/install/odom_encoder/lib/python3.12/site-packages/odom_encoder-0.0.0-py3.12.egg-info
+running install_scripts
+Installing fake_imu_node script to /home/duy/ros2_ws/install/odom_encoder/lib/odom_encoder
+Installing fake_vel_node script to /home/duy/ros2_ws/install/odom_encoder/lib/odom_encoder
+Installing imu_node script to /home/duy/ros2_ws/install/odom_encoder/lib/odom_encoder
+Installing odom_node script to /home/duy/ros2_ws/install/odom_encoder/lib/odom_encoder
+writing list of installed files to '/home/duy/ros2_ws/build/odom_encoder/install.log'

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-372f3d77db9c0f989da5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rviz_imu_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_imu_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_imu_plugin-1e6f3afab1f41522e086.json",
+					"name" : "rviz_imu_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_imu_plugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_imu_plugin_autogen-448f0cd73edb73b997c1.json",
+					"name" : "rviz_imu_plugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_imu_plugin_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_imu_plugin_autogen_timestamp_deps-6a4461c1cd7476ae9b2e.json",
+					"name" : "rviz_imu_plugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_imu_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_imu_plugin_uninstall-7e2aa38f883f346fb58c.json",
+					"name" : "rviz_imu_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cec0b1e8047c270fa6f2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/duy/ros2_ws/build/rviz_imu_plugin",
+		"source" : "/home/duy/ros2_ws/src/imu_tools/rviz_imu_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

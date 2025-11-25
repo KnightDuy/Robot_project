@@ -1,0 +1,58 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/duy/ros2_ws/build/odom_to_tf_ros2
+[ 50%] [32mBuilding CXX object CMakeFiles/odom_to_tf.dir/src/odom_to_tf.cpp.o[0m
+[100%] [32m[1mLinking CXX executable odom_to_tf[0m
+[100%] Built target odom_to_tf
+-- Install configuration: ""
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/lib/odom_to_tf_ros2/odom_to_tf
+-- Set non-toolchain portion of runtime path of "/home/duy/ros2_ws/install/odom_to_tf_ros2/lib/odom_to_tf_ros2/odom_to_tf" to ""
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/launch
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/launch/odom_to_tf.launch.py
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/config
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/config/odom_to_tf.yaml
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/ament_index/resource_index/package_run_dependencies/odom_to_tf_ros2
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/ament_index/resource_index/parent_prefix_path/odom_to_tf_ros2
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/environment/path.sh
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/environment/path.dsv
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/local_setup.bash
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/local_setup.sh
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/local_setup.zsh
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/local_setup.dsv
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.dsv
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/ament_index/resource_index/packages/odom_to_tf_ros2
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/cmake/odom_to_tf_ros2Config.cmake
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/cmake/odom_to_tf_ros2Config-version.cmake
+-- Installing: /home/duy/ros2_ws/install/odom_to_tf_ros2/share/odom_to_tf_ros2/package.xml

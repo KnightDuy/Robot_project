@@ -1,0 +1,44 @@
+[0.055s] Invoking command in '/home/duy/ros2_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/imu_complementary_filter -- -j16 -l16
+[0.339s] [ 20%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o[0m
+[11.052s] [ 40%] [32m[1mLinking CXX shared library libcomplementary_filter.so[0m
+[11.469s] [ 60%] Built target complementary_filter
+[11.507s] [ 80%] [32m[1mLinking CXX executable complementary_filter_node[0m
+[11.760s] [100%] Built target complementary_filter_node
+[11.774s] Invoked command in '/home/duy/ros2_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duy/ros2_ws/build/imu_complementary_filter -- -j16 -l16
+[11.775s] Invoking command in '/home/duy/ros2_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/imu_complementary_filter
+[11.786s] -- Install configuration: ""
+[11.786s] -- Installing: /home/duy/ros2_ws/install/imu_complementary_filter/lib/libcomplementary_filter.so
+[11.796s] -- Set non-toolchain portion of runtime path of "/home/duy/ros2_ws/install/imu_complementary_filter/lib/libcomplementary_filter.so" to ""
+[11.796s] -- Installing: /home/duy/ros2_ws/install/imu_complementary_filter/lib/imu_complementary_filter/complementary_filter_node
+[11.796s] -- Set non-toolchain portion of runtime path of "/home/duy/ros2_ws/install/imu_complementary_filter/lib/imu_complementary_filter/complementary_filter_node" to ""
+[11.796s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/include
+[11.796s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/include/imu_complementary_filter
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter.h
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/launch
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/launch/complementary_filter.launch.py
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/config
+[11.797s] -- Installing: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/config/filter_config.yaml
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.sh
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.dsv
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.sh
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.dsv
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.sh
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.dsv
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.bash
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.sh
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.zsh
+[11.797s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.dsv
+[11.797s] -- Installing: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv
+[11.798s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/ament_index/resource_index/packages/imu_complementary_filter
+[11.798s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake
+[11.798s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake
+[11.798s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.798s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[11.798s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_targets-extras.cmake
+[11.798s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig.cmake
+[11.798s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig-version.cmake
+[11.798s] -- Up-to-date: /home/duy/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.xml
+[11.800s] Invoked command in '/home/duy/ros2_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duy/ros2_ws/install/odom_encoder:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duy/ros2_ws/build/imu_complementary_filter

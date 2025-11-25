@@ -1,0 +1,15 @@
+/home/duy/ros2_ws/install/imu_tools/share/ament_index/resource_index/package_run_dependencies/imu_tools
+/home/duy/ros2_ws/install/imu_tools/share/ament_index/resource_index/parent_prefix_path/imu_tools
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/environment/ament_prefix_path.sh
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/environment/ament_prefix_path.dsv
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/environment/path.sh
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/environment/path.dsv
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/local_setup.bash
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/local_setup.sh
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/local_setup.zsh
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/local_setup.dsv
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.dsv
+/home/duy/ros2_ws/install/imu_tools/share/ament_index/resource_index/packages/imu_tools
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/cmake/imu_toolsConfig.cmake
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/cmake/imu_toolsConfig-version.cmake
+/home/duy/ros2_ws/install/imu_tools/share/imu_tools/package.xml

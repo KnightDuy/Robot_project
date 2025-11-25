@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-99d2a2c7f14ed0c57385.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "imu_complementary_filter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "complementary_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-complementary_filter-8c86947d92934c356fb8.json",
+					"name" : "complementary_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "complementary_filter_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-complementary_filter_node-94ba8c3d9735a09dcb63.json",
+					"name" : "complementary_filter_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_complementary_filter_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_complementary_filter_uninstall-99acfb13f1537d550c8a.json",
+					"name" : "imu_complementary_filter_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-df4e00a7abc0fd4001e8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/duy/ros2_ws/build/imu_complementary_filter",
+		"source" : "/home/duy/ros2_ws/src/imu_tools/imu_complementary_filter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

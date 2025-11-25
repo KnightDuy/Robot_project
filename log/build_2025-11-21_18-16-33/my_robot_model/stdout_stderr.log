@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/duy/ros2_ws/build/my_robot_model
+-- Install configuration: ""
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/launch
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/launch/test.launch.py
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/lidar.xacro
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/depth_camera.xacro
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/robot.urdf.xacro
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/imu.xacro
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/robot_core.xacro
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/camera.xacro
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/robot_control.xacro
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/description/inertial_macros.xacro
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/config
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/config/bridge_config.yaml
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/config/mapper_params_online_async.yaml
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/config/ekf.yaml
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/rviz
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/rviz/config.rviz
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/worlds
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/worlds/my_world.sdf
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/lib/my_robot_model/wheel_odom_publisher.py
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/ament_index/resource_index/package_run_dependencies/my_robot_model
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/ament_index/resource_index/parent_prefix_path/my_robot_model
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/environment/ament_prefix_path.sh
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/environment/ament_prefix_path.dsv
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/environment/path.sh
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/environment/path.dsv
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/local_setup.bash
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/local_setup.sh
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/local_setup.zsh
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/local_setup.dsv
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.dsv
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/ament_index/resource_index/packages/my_robot_model
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/cmake/my_robot_modelConfig.cmake
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/cmake/my_robot_modelConfig-version.cmake
+-- Installing: /home/duy/ros2_ws/install/my_robot_model/share/my_robot_model/package.xml

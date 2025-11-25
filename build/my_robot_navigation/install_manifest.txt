@@ -1,0 +1,15 @@
+/home/duy/ros2_ws/install/my_robot_navigation/share/ament_index/resource_index/package_run_dependencies/my_robot_navigation
+/home/duy/ros2_ws/install/my_robot_navigation/share/ament_index/resource_index/parent_prefix_path/my_robot_navigation
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/environment/ament_prefix_path.sh
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/environment/ament_prefix_path.dsv
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/environment/path.sh
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/environment/path.dsv
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/local_setup.bash
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/local_setup.sh
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/local_setup.zsh
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/local_setup.dsv
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.dsv
+/home/duy/ros2_ws/install/my_robot_navigation/share/ament_index/resource_index/packages/my_robot_navigation
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigationConfig.cmake
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigationConfig-version.cmake
+/home/duy/ros2_ws/install/my_robot_navigation/share/my_robot_navigation/package.xml
